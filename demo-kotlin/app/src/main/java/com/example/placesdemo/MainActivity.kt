@@ -47,6 +47,8 @@ class MainActivity : AppCompatActivity() {
         setLaunchActivityClickListener(R.id.current_place_button, CurrentPlaceActivity::class.java)
         setLaunchActivityClickListener(R.id.place_and_photo_button, PlaceDetailsAndPhotosActivity::class.java)
         setLaunchActivityClickListener(R.id.is_open_button, PlaceIsOpenActivity::class.java)
+        setLaunchActivityClickListener(R.id.SearchByTextRectBounds, SearchByTextRectangularBounds::class.java)
+        setLaunchActivityClickListener(R.id.SearchByTextCircBounds, SearchByTextCircularBounds::class.java)
     }
 
     private fun setLaunchActivityClickListener(@IdRes onClickResId: Int, activityClassToLaunch: Class<out AppCompatActivity>) {

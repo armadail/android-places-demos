@@ -51,6 +51,8 @@
     <activity android:name=".PlaceDetailsAndPhotosActivity" />
     <activity android:name=".CurrentPlaceActivity" />
     <activity android:name=".PlaceIsOpenActivity" />
+    <activity android:name=".SearchByTextRectangularBounds" />
+    <activity android:name=".SearchByTextCircularBounds" />
     <activity
       android:name=".programmatic_autocomplete.ProgrammaticAutocompleteGeocodingActivity"
       android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

@@ -63,6 +63,19 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/spacing_small"
         android:text="@string/main_isOpenButtonText" />
+    <Button
+        android:id="@+id/SearchByTextRectBounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_small"
+        android:text="Search By Text Rectangular Bounds" />
+
+    <Button
+        android:id="@+id/SearchByTextCircBounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_small"
+        android:text="Search By Text Circular Bounds WILL CRASH" />
 
 </LinearLayout>
 
